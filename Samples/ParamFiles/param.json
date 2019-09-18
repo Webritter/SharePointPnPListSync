@@ -1,0 +1,86 @@
+[
+    {
+        "Disabled" : false,
+        "Title" : "Sync Job 2",
+        "Source" : {
+            "Type" : "csv",
+            "FilePath" : ".\\Samples\\Data\\data.csv",
+            "KeyFieldName" : "Ident"
+        },
+        "Target" : {
+            "Type" : "SharePointOnline",
+            "SiteUrl" : "https://m365x337444.sharepoint.com/sites/PorscheInformatik",
+            "ListName" : "Broadcast",
+            "KeyFieldName" : "Ident"
+        },
+        "Mapping" :[
+            {
+                "Source" : "Ident",
+                "Target" : "Ident"
+            },
+            { 
+                "Source" : "Title",
+                "Target" : "Title"
+            },
+            {
+                "Source" : "Link",
+                "SourceType" : "Url",
+                "SourceAttr" : {"UrlDescription" : "#Title"},
+                "Target" : "Link",
+                "TargetType" : "SPLink"
+            },
+            { 
+                "Source" : "Date",
+                "SourceType" : "Date",
+                "Target" : "Date",
+                "TargetType" : "SPDate"
+            }
+
+        ]
+
+        
+
+    },
+    {
+
+        "Title" : "Sync Job 3",
+        "Source" : {
+            "Type" : "sql",
+            
+            "ConnectionString" : "Server=.\\SQLEXPRESS;Initial Catalog=SharePointSyncListExpress;Integrated Security=True;",
+            "Query" : "select * from dbo.DemoData1",
+            "KeyFieldName" : "Ident"
+
+        },
+        "Target" : {
+            "Type" : "SharePointOnline",
+            "SiteUrl" : "https://m365x337444.sharepoint.com/sites/PorscheInformatik",
+            "ListName" : "Eventslist",
+            "KeyFieldName" : "Ident",
+            "DeletItemsNotInSource" : true
+
+        },
+
+        "Mapping" :[
+            {
+                "Source" : "Ident",
+                "Target" : "Ident"
+            },
+            { 
+                "Source" : "Title",
+                "Target" : "Title"
+            },
+            { 
+                "Source" : "Date",
+                "SourceType" : "Date",
+                "Target" : "StartDate",
+                "TargetType" : "SPDate"
+            },
+            { 
+                "Source" : "Category",
+                "Target" : "Eventtype"
+            }
+
+        ]
+    }
+]

@@ -1,0 +1,31 @@
+
+[
+    {
+        "Ident":  "ID0001",
+        "Title":  "Title 1",
+        "Date":  "1.10.2019",
+        "Link":  "https://www.microsoft.com",
+        "Category":  "Choice 1"
+    },
+    {
+        "Ident":  "ID0002",
+        "Title":  "Titel 2",
+        "Date":  "3.10.2019",
+        "Link":  "https://tesmmicrosoft.com",
+        "Category":  "Choice 2"
+    },
+    {
+        "Ident":  "ID0003",
+        "Title":  "Titel 3",
+        "Date":  "3.10.2019",
+        "Link":  "https://tesmmicrosoft.com",
+        "Category":  "Choice 3"
+    },
+    {
+        "Ident":  "ID0004",
+        "Title":  "Titel 4",
+        "Date":  "4.10.2019",
+        "Link":  "https://tesmmicrosoft.com",
+        "Category":  "Choice 4"
+    }
+]

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<pnp:Provisioning xmlns:pnp="http://schemas.dev.office.com/PnP/2019/03/ProvisioningSchema">
+  <pnp:Preferences Generator="OfficeDevPnP.Core, Version=3.13.1909.0, Culture=neutral, PublicKeyToken=5e633289e95c321a" />
+  <pnp:Templates ID="CONTAINER-TEMPLATE-AFCC69456C3B4C17920EA4D5069306FF">
+    <pnp:ProvisioningTemplate ID="TEMPLATE-AFCC69456C3B4C17920EA4D5069306FF" Version="1" BaseSiteTemplate="SITEPAGEPUBLISHING#0" Scope="RootSite">
+      <pnp:WebSettings NoCrawl="false" WelcomePage="SitePages/Home.aspx" CommentsOnSitePagesDisabled="false" QuickLaunchEnabled="false" />
+      <pnp:ClientSidePages>
+        <pnp:ClientSidePage PageName="----File----.aspx" PromoteAsNewsArticle="true" PromoteAsTemplate="false" Overwrite="true" Title="####Title####">
+          <pnp:Sections>
+            <pnp:Section Order="1" Type="OneColumn">
+              <pnp:Controls>
+                <pnp:CanvasControl WebPartType="Text" ControlId="1d9dcf45-dddf-4d9f-9cbe-33ee958625c9" Order="1" Column="1">
+                  <pnp:CanvasControlProperties>
+                    <pnp:CanvasControlProperty Key="Text" Value="####Content####" />
+                  </pnp:CanvasControlProperties>
+                </pnp:CanvasControl>
+                <pnp:CanvasControl WebPartType="Image" JsonControlData="{&quot;id&quot;: &quot;d1d91016-032f-456d-98a4-721247c305e8&quot;, &quot;instanceId&quot;: &quot;7f7ba91e-5082-4091-989e-1875f932d497&quot;, &quot;title&quot;: &quot;Image&quot;, &quot;description&quot;: &quot;Show an image on your page&quot;, &quot;dataVersion&quot;: &quot;1.8&quot;, &quot;properties&quot;: {&quot;imageSourceType&quot;:2,&quot;altText&quot;:&quot;a view of a city&quot;,&quot;overlayText&quot;:&quot;&quot;,&quot;fileName&quot;:&quot;&quot;,&quot;siteId&quot;:&quot;{sitecollectionid}&quot;,&quot;webId&quot;:&quot;{siteid}&quot;,&quot;listId&quot;:&quot;{listid:Site Assets}&quot;,&quot;uniqueId&quot;:&quot;{2EED5BD7-F07C-404A-8BF3-454535F48DBB}&quot;,&quot;imgWidth&quot;:4608,&quot;imgHeight&quot;:2592,&quot;resizeCoefficient&quot;:1,&quot;alignment&quot;:&quot;Center&quot;,&quot;fixAspectRatio&quot;:false}, &quot;serverProcessedContent&quot;: {&quot;htmlStrings&quot;:{},&quot;searchablePlainTexts&quot;:{&quot;captionText&quot;:&quot;&quot;},&quot;imageSources&quot;:{&quot;imageSource&quot;:&quot;{site}/SiteAssets/SitePages/Lorem-Ipsim-3-14102019/5755-20190824_175803.jpg&quot;},&quot;links&quot;:{&quot;linkUrl&quot;:&quot;&quot;},&quot;customMetadata&quot;:{&quot;imageSource&quot;:{&quot;siteId&quot;:&quot;{sitecollectionid}&quot;,&quot;webId&quot;:&quot;{siteid}&quot;,&quot;listId&quot;:&quot;{listid:Site Assets}&quot;,&quot;uniqueId&quot;:&quot;{2EED5BD7-F07C-404A-8BF3-454535F48DBB}&quot;,&quot;width&quot;:4608,&quot;height&quot;:2592}}}, &quot;dynamicDataPaths&quot;: {}, &quot;dynamicDataValues&quot;: {}}" ControlId="d1d91016-032f-456d-98a4-721247c305e8" Order="2" Column="1" />
+              </pnp:Controls>
+            </pnp:Section>
+          </pnp:Sections>
+          <pnp:Header Type="Default" LayoutType="FullWidthImage" TextAlignment="Center" ShowTopicHeader="false" ShowPublishDate="false" TopicHeader="" AlternativeText="" Authors="[&#xD;&#xA;  {&#xD;&#xA;    &quot;id&quot;: &quot;i:0#.f|membership|admin@m365x337444.onmicrosoft.com&quot;,&#xD;&#xA;    &quot;upn&quot;: &quot;admin@M365x337444.onmicrosoft.com&quot;,&#xD;&#xA;    &quot;name&quot;: &quot;MOD Administrator&quot;,&#xD;&#xA;    &quot;role&quot;: &quot;&quot;&#xD;&#xA;  }&#xD;&#xA;]" AuthorByLine="[&#xD;&#xA;  &quot;i:0#.f|membership|admin@m365x337444.onmicrosoft.com&quot;&#xD;&#xA;]" AuthorByLineId="-1" />
+          <pnp:Security>
+            <pnp:BreakRoleInheritance CopyRoleAssignments="false" ClearSubscopes="false" />
+          </pnp:Security>
+        </pnp:ClientSidePage>
+      </pnp:ClientSidePages>
+    </pnp:ProvisioningTemplate>
+  </pnp:Templates>
+</pnp:Provisioning>

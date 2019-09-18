@@ -1,0 +1,279 @@
+<?xml version="1.0"?>
+<pnp:Provisioning xmlns:pnp="http://schemas.dev.office.com/PnP/2019/03/ProvisioningSchema">
+  <pnp:Preferences Generator="OfficeDevPnP.Core, Version=3.13.1909.0, Culture=neutral, PublicKeyToken=5e633289e95c321a" />
+  <pnp:Templates ID="CONTAINER-TEMPLATE-A3591F13605D452A91955AEE1BBC0FF5">
+    <pnp:ProvisioningTemplate ID="TEMPLATE-A3591F13605D452A91955AEE1BBC0FF5" Version="1" BaseSiteTemplate="SITEPAGEPUBLISHING#0" Scope="RootSite">
+      <pnp:WebSettings NoCrawl="false" WelcomePage="SitePages/Home.aspx" CommentsOnSitePagesDisabled="false" QuickLaunchEnabled="false" />
+      <pnp:ClientSidePages>
+        <pnp:ClientSidePage PageName="Home.aspx" PromoteAsNewsArticle="false" PromoteAsTemplate="false" Overwrite="true" Layout="Home" EnableComments="false" Title="Home">
+          <pnp:Sections>
+            <pnp:Section Order="1" Type="OneColumn">
+              <pnp:Controls>
+                <pnp:CanvasControl WebPartType="GroupCalendar" JsonControlData="{&quot;id&quot;: &quot;6676088b-e28e-4a90-b9cb-d0d0303cd2eb&quot;, &quot;instanceId&quot;: &quot;1503e93b-d3fe-41c6-a7dd-68b1ad1b78db&quot;, &quot;title&quot;: &quot;Group calendar&quot;, &quot;description&quot;: &quot;Group calendar&quot;, &quot;dataVersion&quot;: &quot;1.0&quot;, &quot;properties&quot;: {&quot;selectedGroupId&quot;:&quot;df996f20-107c-45f1-833e-61153bcca01e&quot;,&quot;selectedGroupName&quot;:&quot;Mark 8 Project Team&quot;,&quot;accessType&quot;:&quot;Public&quot;,&quot;showPerPage&quot;:4,&quot;timeSpanLimitInMonth&quot;:6}, &quot;serverProcessedContent&quot;: {&quot;htmlStrings&quot;:{},&quot;searchablePlainTexts&quot;:{&quot;title&quot;:&quot;&quot;},&quot;imageSources&quot;:{},&quot;links&quot;:{}}, &quot;dynamicDataPaths&quot;: {}, &quot;dynamicDataValues&quot;: {}}" ControlId="6676088b-e28e-4a90-b9cb-d0d0303cd2eb" Order="1" Column="1" />
+                <pnp:CanvasControl WebPartType="Events" JsonControlData="{&quot;id&quot;: &quot;20745d7d-8581-4a6c-bf26-68279bc123fc&quot;, &quot;instanceId&quot;: &quot;902b31d2-897d-4269-b5ba-09a8aa2ae2eb&quot;, &quot;title&quot;: &quot;Events&quot;, &quot;description&quot;: &quot;Events&quot;, &quot;dataVersion&quot;: &quot;1.2&quot;, &quot;properties&quot;: {&quot;selectedListId&quot;:&quot;{listid:Events}&quot;,&quot;selectedCategory&quot;:&quot;&quot;,&quot;dateRangeOption&quot;:0,&quot;startDate&quot;:&quot;&quot;,&quot;endDate&quot;:&quot;&quot;,&quot;isOnSeeAllPage&quot;:false,&quot;layout&quot;:&quot;Compact&quot;,&quot;dataSource&quot;:7,&quot;sites&quot;:[],&quot;maxItemsPerPage&quot;:20,&quot;layoutId&quot;:&quot;Flex&quot;,&quot;dataProviderId&quot;:&quot;Event&quot;,&quot;webId&quot;:&quot;{siteid}&quot;,&quot;siteId&quot;:&quot;{sitecollectionid}&quot;}, &quot;serverProcessedContent&quot;: {&quot;htmlStrings&quot;:{},&quot;searchablePlainTexts&quot;:{&quot;title&quot;:&quot;Events&quot;},&quot;imageSources&quot;:{},&quot;links&quot;:{&quot;baseUrl&quot;:&quot;{hosturl}{site}&quot;},&quot;componentDependencies&quot;:{&quot;layoutComponentId&quot;:&quot;0447e11d-bed9-4898-b600-8dbcd95e9cc2&quot;}}, &quot;dynamicDataPaths&quot;: {}, &quot;dynamicDataValues&quot;: {}}" ControlId="20745d7d-8581-4a6c-bf26-68279bc123fc" Order="2" Column="1" />
+              </pnp:Controls>
+            </pnp:Section>
+            <pnp:Section Order="2" Type="TwoColumn" />
+            <pnp:Section Order="3" Type="OneColumn" />
+          </pnp:Sections>
+          <pnp:Header Type="Default" LayoutType="FullWidthImage" TextAlignment="Center" ShowTopicHeader="false" ShowPublishDate="false" TopicHeader="" AlternativeText="" Authors="[]" AuthorByLine="[]" AuthorByLineId="-1" />
+          <pnp:Security>
+            <pnp:BreakRoleInheritance CopyRoleAssignments="false" ClearSubscopes="false" />
+          </pnp:Security>
+        </pnp:ClientSidePage>
+        <pnp:ClientSidePage PageName="Herzlich-Willkommen.aspx" PromoteAsNewsArticle="false" PromoteAsTemplate="false" Overwrite="true" Title="Herzlich Willkommen">
+          <pnp:Sections>
+            <pnp:Section Order="1" Type="TwoColumn">
+              <pnp:Controls>
+                <pnp:CanvasControl WebPartType="Text" ControlId="963eeaff-a3be-4626-95b1-8c008e0356b6" Order="1" Column="1">
+                  <pnp:CanvasControlProperties>
+                    <pnp:CanvasControlProperty Key="Text" Value="&lt;p&gt;&lt;/p&gt;&lt;h2&gt;Wie fangen Sie an?&lt;/h2&gt;&#xA;&#xA;&lt;p&gt;Wählen Sie &quot;Bearbeiten&quot; aus, um die Arbeit mit dieser &amp;nbsp;&lt;a href=&quot;https://go.microsoft.com/fwlink/?linkid=2056662&amp;amp;clcid=0x409&quot;&gt;zweispaltigen&lt;/a&gt;&amp;nbsp; Standardvorlage zu beginnen, die einen Schwerpunkt auf Text legt und Beispiele für Textformatierung enthält. Während sich Ihre Seite im Bearbeitungsmodus befindet, wählen Sie diesen Absatz aus, und ersetzen Sie ihn durch Ihren eigenen Text. Wählen Sie dann den Titel der zweispaltigen Standardvorlage aus, und ersetzen Sie ihn ebenfalls. Geben Sie unterhalb des Titels Ihren Namen in das Seitenautorfeld ein.&lt;/p&gt;&#xA;&#xA;&lt;p&gt;Sie haben gerade eine Seitenvorlage bearbeitet, und Sie sind auf dem Weg, diese Seite zu Ihrem eigenen zu machen!&lt;/p&gt;&#xA;&#xA;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/p&gt;" />
+                  </pnp:CanvasControlProperties>
+                </pnp:CanvasControl>
+                <pnp:CanvasControl WebPartType="Text" ControlId="959b94a2-fb33-4a6f-ba8d-e1752573e693" Order="1" Column="2">
+                  <pnp:CanvasControlProperties>
+                    <pnp:CanvasControlProperty Key="Text" Value="&lt;p&gt;&lt;/p&gt;&lt;h2&gt;Verwenden der Bearbeitungssymbolleiste.&lt;/h2&gt;&#xA;&#xA;&lt;p&gt;Nachdem Sie diesen Absatz ausgewählt haben, verwenden Sie die Symbolleiste, um Formatvorlagen auszuwählen, andere Formatierungsänderungen vorzunehmen und Verknüpfungen hinzuzufügen. Dies ist beispielsweise ein Link zu einem Artikel über das&amp;nbsp;&lt;u&gt;&lt;a data-interception=&quot;on&quot; href=&quot;https://go.microsoft.com/fwlink/?linkid=2056468&amp;amp;clcid=0x409&quot;&gt;Text WebPart. &lt;/a&gt;&lt;/u&gt;&lt;/p&gt;&#xA;&#xA;&lt;p&gt;Eine Tabelle aus dem Text-und Tabellen Formatierungsbereich hinzufügen. Um den Bereich zu öffnen, wählen Sie die Option &quot;mehr&quot;, angezeigt als... in der Symbolleiste.&lt;/p&gt;&#xA;&#xA;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/p&gt;" />
+                  </pnp:CanvasControlProperties>
+                </pnp:CanvasControl>
+              </pnp:Controls>
+            </pnp:Section>
+            <pnp:Section Order="2" Type="TwoColumn">
+              <pnp:Controls>
+                <pnp:CanvasControl WebPartType="Text" ControlId="a4d86881-2fd0-4101-8967-6ddab6e0b849" Order="1" Column="1">
+                  <pnp:CanvasControlProperties>
+                    <pnp:CanvasControlProperty Key="Text" Value="&lt;p&gt;&lt;/p&gt;&lt;h2&gt;Ihre Seite wurde gespeichert.&lt;/h2&gt;&#xA;&#xA;&lt;p&gt;Im Bereich der Seite direkt über dem Bearbeitungsbereich finden Sie Befehle wie &quot;Speichern&quot;, &quot;Änderungen verwerfen&quot; und &quot;Seitendetails&quot;. Er bietet außerdem Meldungen wie &quot;Entwurf nicht gespeichert&quot; und &quot;Ihre Seite wurde gespeichert&quot;.&lt;/p&gt;&#xA;&#xA;&lt;p&gt;Wie Sie Änderungen an der Seite vorgenommen haben, haben Sie die Nachricht bei der Änderung der Schaltfläche &quot;Speichern&quot; bemerkt? Auch wenn Sie &quot;Speichern&quot; nicht auswählen, werden die Entwürfe der Seite automatisch gespeichert. Dieser Hintergrundspeicher verringert die Wahrscheinlichkeit, dass die von Ihnen vorgenommenen Änderungen verloren gehen.&lt;/p&gt;&#xA;&#xA;&lt;p&gt;Nachdem Sie nun die Grundlagen gemeistert haben, können Sie noch mehr über &amp;nbsp;&lt;a data-interception=&quot;on&quot; href=&quot;https://go.microsoft.com/fwlink/?linkid=2026017&quot;&gt;Details zum Bearbeiten von Seiten in SharePoint&lt;/a&gt;&amp;nbsp; lesen. Ihre Seiten sahen nie besser aus.&lt;/p&gt;&#xA;&lt;p&gt;&lt;/p&gt;" />
+                  </pnp:CanvasControlProperties>
+                </pnp:CanvasControl>
+                <pnp:CanvasControl WebPartType="Text" ControlId="191808d1-9888-4c04-ab79-f4b4af0dd818" Order="1" Column="2">
+                  <pnp:CanvasControlProperties>
+                    <pnp:CanvasControlProperty Key="Text" Value="&lt;p&gt;&lt;/p&gt;&lt;h2&gt;Alles bereit!&lt;/h2&gt;&#xA;&#xA;&lt;p&gt;Sobald Sie mit Ihrer Seite zufrieden sind, können Sie auf die Schaltfläche &quot;veröffentlichen&quot; rechts klicken. Wenn Sie Nachrichten erstellen, wird diese Schaltfläche stattdessen &quot;nachRichten&quot; sagen. Auf diese Weise können alle Benutzer, die Zugriff auf Ihre Website haben, Ihre neue Seite anzeigen. Sie können die Seite immer wieder zurückkehren und bearbeiten, nachdem Sie veröffentlicht haben.&lt;/p&gt;&#xA;&#xA;&lt;p&gt;Nachdem Ihre Seite veröffentlicht wurde, können Sie sie als Vorlage speichern (Sie können dies auch über die linke Schaltfläche &quot;Speichern&quot; machen). Wenn Sie nun eine neue Seite oder einen neuen Neuigkeitenartikel erstellen, wird diese immer in der Vorlagenauswahl angezeigt. Dies beschleunigt das Erstellen ähnlicher Inhalte in der Zukunft beträchtlich.&lt;/p&gt;&#xA;&#xA;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/p&gt;" />
+                  </pnp:CanvasControlProperties>
+                </pnp:CanvasControl>
+              </pnp:Controls>
+            </pnp:Section>
+          </pnp:Sections>
+          <pnp:Header Type="Custom" ServerRelativeImageUrl="/_LAYOUTS/IMAGES/VISUALTEMPLATEIMAGE11.JPG" LayoutType="FullWidthImage" TextAlignment="Center" ShowTopicHeader="true" ShowPublishDate="false" TopicHeader="TEXT OBERHALB VON TITEL" AlternativeText="" Authors="[&#xD;&#xA;  {&#xD;&#xA;    &quot;id&quot;: &quot;i:0#.f|membership|meganb@m365x337444.onmicrosoft.com&quot;,&#xD;&#xA;    &quot;upn&quot;: &quot;MeganB@M365x337444.OnMicrosoft.com&quot;,&#xD;&#xA;    &quot;name&quot;: &quot;Megan Bowen&quot;,&#xD;&#xA;    &quot;role&quot;: &quot;Marketing Manager&quot;&#xD;&#xA;  }&#xD;&#xA;]" AuthorByLine="[&#xD;&#xA;  &quot;i:0#.f|membership|meganb@m365x337444.onmicrosoft.com&quot;&#xD;&#xA;]" AuthorByLineId="-1" />
+          <pnp:Security>
+            <pnp:BreakRoleInheritance CopyRoleAssignments="false" ClearSubscopes="false" />
+          </pnp:Security>
+        </pnp:ClientSidePage>
+        <pnp:ClientSidePage PageName="Project-1.aspx" PromoteAsNewsArticle="false" PromoteAsTemplate="false" Overwrite="true" Title="Project 1 Zwischenstatus">
+          <pnp:Sections>
+            <pnp:Section Order="1" Type="TwoColumn">
+              <pnp:Controls>
+                <pnp:CanvasControl WebPartType="Text" ControlId="cd0f7e3d-b240-4441-b273-d12397897104" Order="1" Column="1">
+                  <pnp:CanvasControlProperties>
+                    <pnp:CanvasControlProperty Key="Text" Value="&lt;p&gt;&lt;/p&gt;&lt;h2&gt;How do you get started?&lt;/h2&gt;&#xA;&#xA;&lt;p&gt;Select 'Edit' to start working with this basic&amp;nbsp;&lt;a href=&quot;https://go.microsoft.com/fwlink/?linkid=2056662&amp;amp;clcid=0x409&quot;&gt;two-column&lt;/a&gt;&amp;nbsp;template with an emphasis on text and examples of text formatting. With your page in edit mode, select this paragraph and replace it with your own text. Then, select the Basic two-column template title and replace it, too. Type your name in the page author field under the title.&lt;/p&gt;&#xA;&#xA;&lt;p&gt;You've just edited a page template and you're on your way to making this page your own!&lt;/p&gt;&#xA;&#xA;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/p&gt;" />
+                  </pnp:CanvasControlProperties>
+                </pnp:CanvasControl>
+                <pnp:CanvasControl WebPartType="Text" ControlId="11ed73bc-6a20-4e86-8e4f-ddd067ecc90a" Order="1" Column="2">
+                  <pnp:CanvasControlProperties>
+                    <pnp:CanvasControlProperty Key="Text" Value="&lt;p&gt;&lt;/p&gt;&lt;h2&gt;Use the editing toolbar.&lt;/h2&gt;&#xA;&#xA;&lt;p&gt;After you select this paragraph, use the toolbar to choose styles, make other format changes, and add links. For example, this is a link to an article about the&amp;nbsp;&lt;u&gt;&lt;a data-interception=&quot;on&quot; href=&quot;https://go.microsoft.com/fwlink/?linkid=2056468&amp;amp;clcid=0x409&quot;&gt;text web part.&lt;/a&gt;&lt;/u&gt;&lt;/p&gt;&#xA;&#xA;&lt;p&gt;Add a table from the text and table formatting pane. To open the pane, select the 'More' option, shown as … in the toolbar.&lt;/p&gt;&#xA;&#xA;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/p&gt;" />
+                  </pnp:CanvasControlProperties>
+                </pnp:CanvasControl>
+              </pnp:Controls>
+            </pnp:Section>
+            <pnp:Section Order="2" Type="TwoColumn">
+              <pnp:Controls>
+                <pnp:CanvasControl WebPartType="Text" ControlId="982adccc-6255-4646-85c1-807d6d158f41" Order="1" Column="1">
+                  <pnp:CanvasControlProperties>
+                    <pnp:CanvasControlProperty Key="Text" Value="&lt;p&gt;&lt;/p&gt;&lt;h2&gt;Your page has been saved!&lt;/h2&gt;&#xA;&#xA;&lt;p&gt;The area of the page just above the editing area provides commands like 'Save', 'Discard changes' and 'Page details'. It also provides messages like 'Draft not saved' and 'Your page has been saved'.&lt;/p&gt;&#xA;&#xA;&lt;p&gt;As you've made edits to the page, have you noticed the message near the Save button change? Even when you don't select Save, drafts of the page are being saved automatically! This background save makes it less likely you will lose the changes you make.&lt;/p&gt;&#xA;&#xA;&lt;p&gt;Now that you've mastered the basics, you can also read more about&amp;nbsp;&lt;a data-interception=&quot;on&quot; href=&quot;https://go.microsoft.com/fwlink/?linkid=2026017&quot;&gt;editing page details in SharePoint.&lt;/a&gt;&amp;nbsp;Your pages have never looked better.&lt;/p&gt;&#xA;&lt;p&gt;&lt;/p&gt;" />
+                  </pnp:CanvasControlProperties>
+                </pnp:CanvasControl>
+                <pnp:CanvasControl WebPartType="Text" ControlId="9dcb896c-fd6e-48ed-a1e5-7f95dffff9c2" Order="1" Column="2">
+                  <pnp:CanvasControlProperties>
+                    <pnp:CanvasControlProperty Key="Text" Value="&lt;p&gt;&lt;/p&gt;&lt;h2&gt;Ready to go&lt;/h2&gt;&#xA;&#xA;&lt;p&gt;Once you're happy with your page, you can hit the publish button on the right. If you are creating news, this button will say 'Post News' instead. This will let everyone who has access to your site view your new page. You can always come back and edit the page after you publish.&lt;/p&gt;&#xA;&#xA;&lt;p&gt;After your page is published, you can save it as a template (you can also do this from the save button on the left). Now whenever you create a new page or news article, it will show up in the template picker. This will make creating similar content a lot faster in the future.&lt;/p&gt;&#xA;&#xA;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/p&gt;" />
+                  </pnp:CanvasControlProperties>
+                </pnp:CanvasControl>
+              </pnp:Controls>
+            </pnp:Section>
+            <pnp:Section Order="3" Type="OneColumn">
+              <pnp:Controls>
+                <pnp:CanvasControl WebPartType="Image" JsonControlData="{&quot;id&quot;: &quot;d1d91016-032f-456d-98a4-721247c305e8&quot;, &quot;instanceId&quot;: &quot;3fafe1d7-dc30-49eb-a5fd-dbfba3af52b4&quot;, &quot;title&quot;: &quot;Image&quot;, &quot;description&quot;: &quot;Image&quot;, &quot;dataVersion&quot;: &quot;1.8&quot;, &quot;properties&quot;: {&quot;imageSourceType&quot;:2,&quot;altText&quot;:&quot;a view of a snow covered mountain&quot;,&quot;overlayText&quot;:&quot;&quot;,&quot;fileName&quot;:&quot;&quot;,&quot;siteId&quot;:&quot;{sitecollectionid}&quot;,&quot;webId&quot;:&quot;{siteid}&quot;,&quot;listId&quot;:&quot;{listid:Site Assets}&quot;,&quot;uniqueId&quot;:&quot;{591B8E0E-1926-44FA-9BDA-E97EE9DA78F3}&quot;,&quot;imgWidth&quot;:5376,&quot;imgHeight&quot;:3024,&quot;resizeCoefficient&quot;:1,&quot;alignment&quot;:&quot;Center&quot;,&quot;fixAspectRatio&quot;:false}, &quot;serverProcessedContent&quot;: {&quot;htmlStrings&quot;:{},&quot;searchablePlainTexts&quot;:{&quot;captionText&quot;:&quot;&quot;},&quot;imageSources&quot;:{&quot;imageSource&quot;:&quot;{site}/SiteAssets/SitePages/Event/35610-WP_20160416_14_52_36_Pro.jpg&quot;},&quot;links&quot;:{},&quot;customMetadata&quot;:{&quot;imageSource&quot;:{&quot;siteId&quot;:&quot;{sitecollectionid}&quot;,&quot;webId&quot;:&quot;{siteid}&quot;,&quot;listId&quot;:&quot;{listid:Site Assets}&quot;,&quot;uniqueId&quot;:&quot;{591B8E0E-1926-44FA-9BDA-E97EE9DA78F3}&quot;,&quot;width&quot;:5376,&quot;height&quot;:3024}}}, &quot;dynamicDataPaths&quot;: {}, &quot;dynamicDataValues&quot;: {}}" ControlId="d1d91016-032f-456d-98a4-721247c305e8" Order="1" Column="1" />
+              </pnp:Controls>
+            </pnp:Section>
+          </pnp:Sections>
+          <pnp:Header Type="Custom" ServerRelativeImageUrl="/_LAYOUTS/IMAGES/VISUALTEMPLATEIMAGE11.JPG" LayoutType="FullWidthImage" TextAlignment="Center" ShowTopicHeader="true" ShowPublishDate="false" TopicHeader="TEXT ABOVE TITLE" AlternativeText="" Authors="[&#xD;&#xA;  {&#xD;&#xA;    &quot;id&quot;: &quot;i:0#.f|membership|meganb@m365x337444.onmicrosoft.com&quot;,&#xD;&#xA;    &quot;upn&quot;: &quot;MeganB@M365x337444.OnMicrosoft.com&quot;,&#xD;&#xA;    &quot;name&quot;: &quot;Megan Bowen&quot;,&#xD;&#xA;    &quot;role&quot;: &quot;Marketing Manager&quot;&#xD;&#xA;  }&#xD;&#xA;]" AuthorByLine="[&#xD;&#xA;  &quot;i:0#.f|membership|meganb@m365x337444.onmicrosoft.com&quot;&#xD;&#xA;]" AuthorByLineId="-1" />
+          <pnp:Security>
+            <pnp:BreakRoleInheritance CopyRoleAssignments="false" ClearSubscopes="false" />
+          </pnp:Security>
+        </pnp:ClientSidePage>
+        <pnp:ClientSidePage PageName="SharePoint-OOB.aspx" PromoteAsNewsArticle="false" PromoteAsTemplate="false" Overwrite="true" Title="POI 4.0 SUPPORT DASHBOARD">
+          <pnp:Sections>
+            <pnp:Section Order="1" Type="TwoColumnLeft" BackgroundEmphasis="Neutral" />
+            <pnp:Section Order="2" Type="OneColumn">
+              <pnp:Controls>
+                <pnp:CanvasControl WebPartType="Divider" JsonControlData="{&quot;id&quot;: &quot;2161a1c6-db61-4731-b97c-3cdb303f7cbb&quot;, &quot;instanceId&quot;: &quot;8f0115eb-f4dc-4533-87f9-df3db2a283d6&quot;, &quot;title&quot;: &quot;Divider&quot;, &quot;description&quot;: &quot;Divider&quot;, &quot;dataVersion&quot;: &quot;1.1&quot;, &quot;properties&quot;: {&quot;length&quot;:100,&quot;weight&quot;:1}, &quot;serverProcessedContent&quot;: {&quot;htmlStrings&quot;:{},&quot;searchablePlainTexts&quot;:{},&quot;imageSources&quot;:{},&quot;links&quot;:{}}, &quot;dynamicDataPaths&quot;: {}, &quot;dynamicDataValues&quot;: {}}" ControlId="2161a1c6-db61-4731-b97c-3cdb303f7cbb" Order="1" Column="1" />
+                <pnp:CanvasControl WebPartType="QuickLinks" JsonControlData="{&quot;id&quot;: &quot;c70391ea-0b10-4ee9-b2b4-006d3fcad0cd&quot;, &quot;instanceId&quot;: &quot;ad67e812-a496-46fe-a938-e2c859eaddf6&quot;, &quot;title&quot;: &quot;Quick links&quot;, &quot;description&quot;: &quot;Quick links&quot;, &quot;dataVersion&quot;: &quot;2.2&quot;, &quot;properties&quot;: {&quot;items&quot;:[{&quot;sourceItem&quot;:{&quot;guids&quot;:{&quot;siteId&quot;:&quot;{sitecollectionid}&quot;,&quot;webId&quot;:&quot;{siteid}&quot;,&quot;listId&quot;:&quot;{listid:Documents}&quot;,&quot;uniqueId&quot;:&quot;{viewid:Documents,All Documents}&quot;},&quot;itemType&quot;:2,&quot;fileExtension&quot;:&quot;&quot;,&quot;progId&quot;:&quot;&quot;},&quot;thumbnailType&quot;:2,&quot;id&quot;:1,&quot;fabricReactIcon&quot;:{&quot;iconName&quot;:&quot;people&quot;}},{&quot;sourceItem&quot;:{&quot;guids&quot;:{&quot;siteId&quot;:&quot;{sitecollectionid}&quot;,&quot;webId&quot;:&quot;{siteid}&quot;,&quot;listId&quot;:&quot;{listid:Site Pages}&quot;,&quot;uniqueId&quot;:&quot;bc2effc4-59cb-4bea-89ae-b9b4b8551b2e&quot;},&quot;itemType&quot;:0,&quot;fileExtension&quot;:&quot;.ASPX&quot;,&quot;progId&quot;:null},&quot;thumbnailType&quot;:2,&quot;id&quot;:2,&quot;fabricReactIcon&quot;:{&quot;iconName&quot;:&quot;linechart&quot;}},{&quot;sourceItem&quot;:{&quot;guids&quot;:{&quot;siteId&quot;:&quot;{sitecollectionid}&quot;,&quot;webId&quot;:&quot;{siteid}&quot;,&quot;listId&quot;:&quot;{listid:Events}&quot;,&quot;uniqueId&quot;:&quot;{viewid:Events,Calendar}&quot;},&quot;itemType&quot;:2,&quot;fileExtension&quot;:&quot;&quot;,&quot;progId&quot;:&quot;&quot;},&quot;thumbnailType&quot;:2,&quot;id&quot;:3,&quot;fabricReactIcon&quot;:{&quot;iconName&quot;:&quot;dietplannotebook&quot;}},{&quot;sourceItem&quot;:{&quot;guids&quot;:{&quot;siteId&quot;:&quot;{sitecollectionid}&quot;,&quot;webId&quot;:&quot;{siteid}&quot;,&quot;listId&quot;:&quot;{listid:Site Pages}&quot;,&quot;uniqueId&quot;:&quot;998be25e-e0d5-4c3e-8be6-4c722392ac69&quot;},&quot;itemType&quot;:0,&quot;fileExtension&quot;:&quot;.ASPX&quot;,&quot;progId&quot;:null},&quot;thumbnailType&quot;:2,&quot;id&quot;:4,&quot;fabricReactIcon&quot;:{&quot;iconName&quot;:&quot;world&quot;}}],&quot;isMigrated&quot;:true,&quot;layoutId&quot;:&quot;CompactCard&quot;,&quot;shouldShowThumbnail&quot;:true,&quot;buttonLayoutOptions&quot;:{&quot;showDescription&quot;:false,&quot;buttonTreatment&quot;:2,&quot;iconPositionType&quot;:2,&quot;textAlignmentVertical&quot;:2,&quot;textAlignmentHorizontal&quot;:2,&quot;linesOfText&quot;:2},&quot;listLayoutOptions&quot;:{&quot;showDescription&quot;:false,&quot;showIcon&quot;:true},&quot;waffleLayoutOptions&quot;:{&quot;iconSize&quot;:1,&quot;onlyShowThumbnail&quot;:false},&quot;hideWebPartWhenEmpty&quot;:true,&quot;dataProviderId&quot;:&quot;QuickLinks&quot;,&quot;webId&quot;:&quot;{siteid}&quot;,&quot;siteId&quot;:&quot;{sitecollectionid}&quot;}, &quot;serverProcessedContent&quot;: {&quot;htmlStrings&quot;:{},&quot;searchablePlainTexts&quot;:{&quot;items[0].title&quot;:&quot;POI Online Support&quot;,&quot;items[1].title&quot;:&quot;Marketing / Dynamics&quot;,&quot;items[2].title&quot;:&quot;Forum&quot;,&quot;items[3].title&quot;:&quot;Knowledgecenter&quot;,&quot;items[0].description&quot;:&quot;&quot;,&quot;items[1].description&quot;:&quot;&quot;,&quot;items[2].description&quot;:&quot;&quot;,&quot;items[3].description&quot;:&quot;&quot;,&quot;items[0].altText&quot;:&quot;&quot;,&quot;items[1].altText&quot;:&quot;&quot;,&quot;items[2].altText&quot;:&quot;&quot;,&quot;items[3].altText&quot;:&quot;&quot;},&quot;imageSources&quot;:{&quot;items[0].rawPreviewImageUrl&quot;:&quot;{site}/_api/v2.1/sites/m365x337444.sharepoint.com,{sitecollectionid},{siteid}/items/94e31931-5ecd-4232-a2c8-5c36b98e9954/driveItem/thumbnails/0/c400x99999/content?preferNoRedirect=true&quot;,&quot;items[2].rawPreviewImageUrl&quot;:&quot;{site}/_api/v2.1/sites/m365x337444.sharepoint.com,{sitecollectionid},{siteid}/items/1d6d5c6c-c719-49e3-bc0d-7338a82321f8/driveItem/thumbnails/0/c400x99999/content?preferNoRedirect=true&quot;},&quot;links&quot;:{&quot;baseUrl&quot;:&quot;{hosturl}{site}&quot;,&quot;items[0].sourceItem.url&quot;:&quot;{site}/Shared%20Documents/Forms/AllItems.aspx&quot;,&quot;items[1].sourceItem.url&quot;:&quot;{site}/SitePages/Project-1.aspx&quot;,&quot;items[2].sourceItem.url&quot;:&quot;{site}/Lists/Events/calendar.aspx&quot;,&quot;items[3].sourceItem.url&quot;:&quot;{site}/SitePages/Home.aspx&quot;},&quot;componentDependencies&quot;:{&quot;layoutComponentId&quot;:&quot;706e33c8-af37-4e7b-9d22-6e5694d92a6f&quot;}}, &quot;dynamicDataPaths&quot;: {}, &quot;dynamicDataValues&quot;: {}}" ControlId="c70391ea-0b10-4ee9-b2b4-006d3fcad0cd" Order="2" Column="1" />
+                <pnp:CanvasControl WebPartType="Divider" JsonControlData="{&quot;id&quot;: &quot;2161a1c6-db61-4731-b97c-3cdb303f7cbb&quot;, &quot;instanceId&quot;: &quot;8e81c5a1-efcd-453b-aecd-ed7e59ae4ea3&quot;, &quot;title&quot;: &quot;Divider&quot;, &quot;description&quot;: &quot;Divider&quot;, &quot;dataVersion&quot;: &quot;1.1&quot;, &quot;properties&quot;: {&quot;length&quot;:100,&quot;weight&quot;:1}, &quot;serverProcessedContent&quot;: {&quot;htmlStrings&quot;:{},&quot;searchablePlainTexts&quot;:{},&quot;imageSources&quot;:{},&quot;links&quot;:{}}, &quot;dynamicDataPaths&quot;: {}, &quot;dynamicDataValues&quot;: {}}" ControlId="2161a1c6-db61-4731-b97c-3cdb303f7cbb" Order="3" Column="1" />
+                <pnp:CanvasControl WebPartType="Events" JsonControlData="{&quot;id&quot;: &quot;20745d7d-8581-4a6c-bf26-68279bc123fc&quot;, &quot;instanceId&quot;: &quot;1535e6aa-16b6-41b0-a8db-dc365ccf3993&quot;, &quot;title&quot;: &quot;Events&quot;, &quot;description&quot;: &quot;Events&quot;, &quot;dataVersion&quot;: &quot;1.2&quot;, &quot;properties&quot;: {&quot;selectedListId&quot;:&quot;{listid:Events}&quot;,&quot;selectedCategory&quot;:&quot;&quot;,&quot;dateRangeOption&quot;:3,&quot;startDate&quot;:&quot;&quot;,&quot;endDate&quot;:&quot;&quot;,&quot;isOnSeeAllPage&quot;:false,&quot;layout&quot;:&quot;Filmstrip&quot;,&quot;dataSource&quot;:7,&quot;sites&quot;:[],&quot;maxItemsPerPage&quot;:20,&quot;layoutId&quot;:&quot;FilmStrip&quot;,&quot;dataProviderId&quot;:&quot;Event&quot;,&quot;webId&quot;:&quot;{siteid}&quot;,&quot;siteId&quot;:&quot;{sitecollectionid}&quot;}, &quot;serverProcessedContent&quot;: {&quot;htmlStrings&quot;:{},&quot;searchablePlainTexts&quot;:{&quot;title&quot;:&quot;Change Calendar&quot;},&quot;imageSources&quot;:{},&quot;links&quot;:{&quot;baseUrl&quot;:&quot;{hosturl}{site}&quot;},&quot;componentDependencies&quot;:{&quot;layoutComponentId&quot;:&quot;8ac0c53c-e8d0-4e3e-87d0-7449eb0d4027&quot;}}, &quot;dynamicDataPaths&quot;: {}, &quot;dynamicDataValues&quot;: {}}" ControlId="20745d7d-8581-4a6c-bf26-68279bc123fc" Order="4" Column="1" />
+              </pnp:Controls>
+            </pnp:Section>
+          </pnp:Sections>
+          <pnp:Header Type="Custom" ServerRelativeImageUrl="/_LAYOUTS/IMAGES/SLEEKTEMPLATEIMAGETILE.JPG" LayoutType="NoImage" TextAlignment="Center" ShowTopicHeader="false" ShowPublishDate="false" TopicHeader="" AlternativeText="" Authors="[]" AuthorByLine="[]" AuthorByLineId="-1" />
+          <pnp:Security>
+            <pnp:BreakRoleInheritance CopyRoleAssignments="false" ClearSubscopes="false" />
+          </pnp:Security>
+        </pnp:ClientSidePage>
+        <pnp:ClientSidePage PageName="POI-4.0-Dashboard---News.aspx" PromoteAsNewsArticle="false" PromoteAsTemplate="false" Overwrite="true" Title="POI 4.0 Dashboard - News">
+          <pnp:Sections>
+            <pnp:Section Order="1" Type="OneColumn" />
+          </pnp:Sections>
+          <pnp:Header Type="Default" LayoutType="FullWidthImage" TextAlignment="Center" ShowTopicHeader="false" ShowPublishDate="false" TopicHeader="" AlternativeText="" Authors="[]" AuthorByLine="[]" AuthorByLineId="-1" />
+          <pnp:Security>
+            <pnp:BreakRoleInheritance CopyRoleAssignments="false" ClearSubscopes="false" />
+          </pnp:Security>
+        </pnp:ClientSidePage>
+        <pnp:ClientSidePage PageName="Update-1-mit-Lorem-Ipsum.aspx" PromoteAsNewsArticle="false" PromoteAsTemplate="false" Overwrite="true" Title="Update 1 mit Lorem Ipsum am 27.9.2019">
+          <pnp:Sections>
+            <pnp:Section Order="1" Type="OneColumn">
+              <pnp:Controls>
+                <pnp:CanvasControl WebPartType="Text" ControlId="5f6a44d0-6429-43d5-b330-d5324b055395" Order="1" Column="1">
+                  <pnp:CanvasControlProperties>
+                    <pnp:CanvasControlProperty Key="Text" Value="&lt;p&gt;&lt;strong&gt;Lorem ipsum&lt;/strong&gt;&lt;/p&gt;&#xA;&#xA;&lt;p&gt;Für Designer, Schriftsetzer, Layouter, Grafikenthusiasten und alle anderen.&lt;/p&gt;&#xA;&#xA;&lt;p&gt;Ein Projekt startet und doch es gibt noch keinen Text, allerdings sollte das Layout schon bald präsentiert werden ... was tun?&lt;/p&gt;&#xA;&#xA;&lt;p&gt;Damit das Projekt gleich starten kann benutze einfach etwas Lorem ipsum - Blind-, Füll-, Dummy-, Nachahmungs-, Platzhaltertext.&lt;/p&gt;&#xA;&#xA;&lt;p&gt;Generiere einfach soviel Lorem Ipsum Text wie du brauchst, kopiere und füge ihn in dein Layout als vorübergehenden Platzhalter ein. Somit sieht das Projekt ein Stückchen vollständiger aus als zuvor. Viel Spaß dabei.&lt;/p&gt;&#xA;" />
+                  </pnp:CanvasControlProperties>
+                </pnp:CanvasControl>
+                <pnp:CanvasControl WebPartType="Image" JsonControlData="{&quot;id&quot;: &quot;d1d91016-032f-456d-98a4-721247c305e8&quot;, &quot;instanceId&quot;: &quot;c5fb56b9-ad83-4f7e-8d20-37f2258f7af9&quot;, &quot;title&quot;: &quot;Image&quot;, &quot;description&quot;: &quot;Image&quot;, &quot;dataVersion&quot;: &quot;1.8&quot;, &quot;properties&quot;: {&quot;imageSourceType&quot;:2,&quot;altText&quot;:&quot;&quot;,&quot;overlayText&quot;:&quot;&quot;,&quot;fileName&quot;:&quot;&quot;,&quot;siteId&quot;:&quot;{sitecollectionid}&quot;,&quot;webId&quot;:&quot;{siteid}&quot;,&quot;listId&quot;:&quot;{listid:Site Assets}&quot;,&quot;uniqueId&quot;:&quot;{BF47A82C-8356-436A-8638-98FB1165756B}&quot;,&quot;imgWidth&quot;:3072,&quot;imgHeight&quot;:1728,&quot;resizeCoefficient&quot;:1,&quot;alignment&quot;:&quot;Center&quot;,&quot;fixAspectRatio&quot;:false}, &quot;serverProcessedContent&quot;: {&quot;htmlStrings&quot;:{},&quot;searchablePlainTexts&quot;:{&quot;captionText&quot;:&quot;&quot;},&quot;imageSources&quot;:{&quot;imageSource&quot;:&quot;{site}/SiteAssets/SitePages/Event/61319-WP_20151227_14_03_39_Pro.jpg&quot;},&quot;links&quot;:{},&quot;customMetadata&quot;:{&quot;imageSource&quot;:{&quot;siteId&quot;:&quot;{sitecollectionid}&quot;,&quot;webId&quot;:&quot;{siteid}&quot;,&quot;listId&quot;:&quot;{listid:Site Assets}&quot;,&quot;uniqueId&quot;:&quot;{BF47A82C-8356-436A-8638-98FB1165756B}&quot;,&quot;width&quot;:3072,&quot;height&quot;:1728}}}, &quot;dynamicDataPaths&quot;: {}, &quot;dynamicDataValues&quot;: {}}" ControlId="d1d91016-032f-456d-98a4-721247c305e8" Order="2" Column="1" />
+              </pnp:Controls>
+            </pnp:Section>
+            <pnp:Section Order="2" Type="OneColumn">
+              <pnp:Controls>
+                <pnp:CanvasControl WebPartType="Text" ControlId="a8e18561-eedb-400d-8760-353ce411b60d" Order="1" Column="1">
+                  <pnp:CanvasControlProperties>
+                    <pnp:CanvasControlProperty Key="Text" Value="&lt;p&gt;&lt;strong&gt;Lorem ipsum&lt;/strong&gt;&lt;/p&gt;&#xA;&#xA;&lt;p&gt;Für Designer, Schriftsetzer, Layouter, Grafikenthusiasten und alle anderen.&lt;/p&gt;&#xA;&#xA;&lt;p&gt;Ein Projekt startet und doch es gibt noch keinen Text, allerdings sollte das Layout schon bald präsentiert werden ... was tun?&lt;/p&gt;&#xA;&#xA;&lt;p&gt;Damit das Projekt gleich starten kann benutze einfach etwas Lorem ipsum - Blind-, Füll-, Dummy-, Nachahmungs-, Platzhaltertext.&lt;/p&gt;&#xA;&#xA;&lt;p&gt;Generiere einfach soviel Lorem Ipsum Text wie du brauchst, kopiere und füge ihn in dein Layout als vorübergehenden Platzhalter ein. Somit sieht das Projekt ein Stückchen vollständiger aus als zuvor. Viel Spaß dabei.&lt;/p&gt;&#xA;" />
+                  </pnp:CanvasControlProperties>
+                </pnp:CanvasControl>
+              </pnp:Controls>
+            </pnp:Section>
+          </pnp:Sections>
+          <pnp:Header Type="Default" LayoutType="FullWidthImage" TextAlignment="Center" ShowTopicHeader="false" ShowPublishDate="false" TopicHeader="" AlternativeText="" Authors="[]" AuthorByLine="[]" AuthorByLineId="-1" />
+          <pnp:Security>
+            <pnp:BreakRoleInheritance CopyRoleAssignments="false" ClearSubscopes="false" />
+          </pnp:Security>
+        </pnp:ClientSidePage>
+        <pnp:ClientSidePage PageName="Lorem-Ipsim-3-14.10.2019.aspx" PromoteAsNewsArticle="false" PromoteAsTemplate="false" Overwrite="true" Title="Lorem Ipsim 3 14.10.2019">
+          <pnp:Sections>
+            <pnp:Section Order="1" Type="OneColumn">
+              <pnp:Controls>
+                <pnp:CanvasControl WebPartType="Image" JsonControlData="{&quot;id&quot;: &quot;d1d91016-032f-456d-98a4-721247c305e8&quot;, &quot;instanceId&quot;: &quot;2f6232a6-e834-4df8-bbf6-817454efde9b&quot;, &quot;title&quot;: &quot;Image&quot;, &quot;description&quot;: &quot;Image&quot;, &quot;dataVersion&quot;: &quot;1.8&quot;, &quot;properties&quot;: {&quot;imageSourceType&quot;:2,&quot;overlayText&quot;:&quot;&quot;,&quot;fileName&quot;:&quot;20190824_175803.jpg&quot;,&quot;siteId&quot;:&quot;{sitecollectionid}&quot;,&quot;webId&quot;:&quot;{siteid}&quot;,&quot;listId&quot;:&quot;{listid:Site Assets}&quot;,&quot;uniqueId&quot;:&quot;2eed5bd7-f07c-404a-8bf3-454535f48dbb&quot;,&quot;imgWidth&quot;:4608,&quot;imgHeight&quot;:2592,&quot;resizeCoefficient&quot;:1,&quot;alignment&quot;:&quot;Center&quot;,&quot;fixAspectRatio&quot;:false,&quot;altText&quot;:&quot;a view of a city&quot;}, &quot;serverProcessedContent&quot;: {&quot;htmlStrings&quot;:{},&quot;searchablePlainTexts&quot;:{&quot;captionText&quot;:&quot;&quot;},&quot;imageSources&quot;:{&quot;imageSource&quot;:&quot;{site}/SiteAssets/SitePages/Lorem-Ipsim-3-14102019/5755-20190824_175803.jpg&quot;},&quot;links&quot;:{},&quot;customMetadata&quot;:{&quot;imageSource&quot;:{&quot;siteId&quot;:&quot;{sitecollectionid}&quot;,&quot;webId&quot;:&quot;{siteid}&quot;,&quot;listId&quot;:&quot;{listid:Site Assets}&quot;,&quot;uniqueId&quot;:&quot;2eed5bd7-f07c-404a-8bf3-454535f48dbb&quot;,&quot;width&quot;:4608,&quot;height&quot;:2592}}}, &quot;dynamicDataPaths&quot;: {}, &quot;dynamicDataValues&quot;: {}}" ControlId="d1d91016-032f-456d-98a4-721247c305e8" Order="1" Column="1" />
+                <pnp:CanvasControl WebPartType="Text" ControlId="ec86afb7-92dd-421f-b5fc-215219bce94d" Order="2" Column="1">
+                  <pnp:CanvasControlProperties>
+                    <pnp:CanvasControlProperty Key="Text" Value="&lt;p&gt;Hier können verschieden Varianten von Lorem ipsum Text heruntergeladen werden. Jedes Beispiel ist als reines Text- oder Worddokument (in .zip Format) verfügbar.&lt;/p&gt;&#xA;&#xA;&lt;p&gt;PC - per Klick auf die rechte Maustaste und dann speichern.&lt;br&gt;&#xA;Mac - &quot;alt&quot;-Taste gedrückt halten und klicken, Dokument wird automatisch auf den Schreibtisch gespeichert.&lt;/p&gt;&#xA;" />
+                  </pnp:CanvasControlProperties>
+                </pnp:CanvasControl>
+              </pnp:Controls>
+            </pnp:Section>
+          </pnp:Sections>
+          <pnp:Header Type="Default" LayoutType="FullWidthImage" TextAlignment="Center" ShowTopicHeader="false" ShowPublishDate="false" TopicHeader="" AlternativeText="" Authors="[]" AuthorByLine="[]" AuthorByLineId="-1" />
+          <pnp:Security>
+            <pnp:BreakRoleInheritance CopyRoleAssignments="false" ClearSubscopes="false" />
+          </pnp:Security>
+        </pnp:ClientSidePage>
+        <pnp:ClientSidePage PageName="Demo-im-Workshop.aspx" PromoteAsNewsArticle="false" PromoteAsTemplate="false" Overwrite="true" Title="Demo im Workshop">
+          <pnp:Sections>
+            <pnp:Section Order="1" Type="TwoColumnLeft">
+              <pnp:Controls>
+                <pnp:CanvasControl WebPartType="Image" JsonControlData="{&quot;id&quot;: &quot;d1d91016-032f-456d-98a4-721247c305e8&quot;, &quot;instanceId&quot;: &quot;c0c46ca1-a8b3-4009-8a93-41ffd587bd08&quot;, &quot;title&quot;: &quot;Image&quot;, &quot;description&quot;: &quot;Image&quot;, &quot;dataVersion&quot;: &quot;1.8&quot;, &quot;properties&quot;: {&quot;imageSourceType&quot;:2,&quot;overlayText&quot;:&quot;&quot;,&quot;fileName&quot;:&quot;POI.png&quot;,&quot;siteId&quot;:&quot;{sitecollectionid}&quot;,&quot;webId&quot;:&quot;{siteid}&quot;,&quot;listId&quot;:&quot;{listid:Site Assets}&quot;,&quot;uniqueId&quot;:&quot;01d9f3cd-b379-4f41-8a99-2e58aaa21ab4&quot;,&quot;imgWidth&quot;:338,&quot;imgHeight&quot;:324,&quot;resizeCoefficient&quot;:1,&quot;alignment&quot;:&quot;Center&quot;,&quot;fixAspectRatio&quot;:false,&quot;isOverlayTextEnabled&quot;:false}, &quot;serverProcessedContent&quot;: {&quot;htmlStrings&quot;:{},&quot;searchablePlainTexts&quot;:{&quot;captionText&quot;:&quot;&quot;},&quot;imageSources&quot;:{&quot;imageSource&quot;:&quot;{site}/SiteAssets/SitePages/Demo-im-Workshop/98315-POI.png&quot;},&quot;links&quot;:{&quot;linkUrl&quot;:&quot;&quot;},&quot;customMetadata&quot;:{&quot;imageSource&quot;:{&quot;siteId&quot;:&quot;{sitecollectionid}&quot;,&quot;webId&quot;:&quot;{siteid}&quot;,&quot;listId&quot;:&quot;{listid:Site Assets}&quot;,&quot;uniqueId&quot;:&quot;01d9f3cd-b379-4f41-8a99-2e58aaa21ab4&quot;,&quot;width&quot;:338,&quot;height&quot;:324}}}, &quot;dynamicDataPaths&quot;: {}, &quot;dynamicDataValues&quot;: {}}" ControlId="d1d91016-032f-456d-98a4-721247c305e8" Order="1" Column="2" />
+              </pnp:Controls>
+            </pnp:Section>
+          </pnp:Sections>
+          <pnp:Header Type="Custom" ServerRelativeImageUrl="/_LAYOUTS/IMAGES/SLEEKTEMPLATEIMAGETILE.JPG" LayoutType="CutInShape" TextAlignment="Center" ShowTopicHeader="true" ShowPublishDate="false" TopicHeader="" AlternativeText="" Authors="[&#xD;&#xA;  {&#xD;&#xA;    &quot;id&quot;: &quot;i:0#.f|membership|admin@m365x337444.onmicrosoft.com&quot;,&#xD;&#xA;    &quot;upn&quot;: &quot;admin@M365x337444.onmicrosoft.com&quot;,&#xD;&#xA;    &quot;name&quot;: &quot;MOD Administrator&quot;,&#xD;&#xA;    &quot;role&quot;: &quot;&quot;&#xD;&#xA;  }&#xD;&#xA;]" AuthorByLine="[&#xD;&#xA;  &quot;i:0#.f|membership|admin@m365x337444.onmicrosoft.com&quot;&#xD;&#xA;]" AuthorByLineId="-1" />
+          <pnp:Security>
+            <pnp:BreakRoleInheritance CopyRoleAssignments="false" ClearSubscopes="false" />
+          </pnp:Security>
+        </pnp:ClientSidePage>
+        <pnp:ClientSidePage PageName="Broadcasts.aspx" PromoteAsNewsArticle="false" PromoteAsTemplate="false" Overwrite="true" Title="Broadcasts">
+          <pnp:Sections>
+            <pnp:Section Order="1" Type="OneColumn">
+              <pnp:Controls>
+                <pnp:CanvasControl WebPartType="List" JsonControlData="{&quot;id&quot;: &quot;f92bf067-bc19-489e-a556-7fe95f508720&quot;, &quot;instanceId&quot;: &quot;36eb0e7e-4d28-4628-814c-e24899992321&quot;, &quot;title&quot;: &quot;List&quot;, &quot;description&quot;: &quot;Add a list&quot;, &quot;dataVersion&quot;: &quot;1.0&quot;, &quot;properties&quot;: {&quot;isDocumentLibrary&quot;:false,&quot;selectedListId&quot;:&quot;{listid:Broadcast}&quot;,&quot;selectedListUrl&quot;:&quot;{site}/Lists/Broadcast&quot;,&quot;webRelativeListUrl&quot;:&quot;/Lists/Broadcast&quot;,&quot;webpartHeightKey&quot;:4,&quot;selectedViewId&quot;:&quot;{viewid:Broadcast,All Items}&quot;,&quot;selectedFolderPath&quot;:&quot;&quot;,&quot;hideCommandBar&quot;:true}, &quot;serverProcessedContent&quot;: {&quot;htmlStrings&quot;:{},&quot;searchablePlainTexts&quot;:{&quot;listTitle&quot;:&quot;  &quot;},&quot;imageSources&quot;:{},&quot;links&quot;:{}}, &quot;dynamicDataPaths&quot;: {}, &quot;dynamicDataValues&quot;: {}}" ControlId="f92bf067-bc19-489e-a556-7fe95f508720" Order="1" Column="1" />
+              </pnp:Controls>
+            </pnp:Section>
+          </pnp:Sections>
+          <pnp:Header Type="Default" LayoutType="NoImage" TextAlignment="Center" ShowTopicHeader="false" ShowPublishDate="false" TopicHeader="" AlternativeText="" Authors="[]" AuthorByLine="[]" AuthorByLineId="-1" />
+          <pnp:Security>
+            <pnp:BreakRoleInheritance CopyRoleAssignments="false" ClearSubscopes="false" />
+          </pnp:Security>
+        </pnp:ClientSidePage>
+        <pnp:ClientSidePage PageName="NewPage.aspx" PromoteAsNewsArticle="false" PromoteAsTemplate="false" Overwrite="true" Title="huhu pnp">
+          <pnp:Header Type="Default" LayoutType="FullWidthImage" TextAlignment="Center" ShowTopicHeader="false" ShowPublishDate="false" TopicHeader="" AlternativeText="" Authors="[]" AuthorByLine="[]" AuthorByLineId="-1" />
+          <pnp:Security>
+            <pnp:BreakRoleInheritance CopyRoleAssignments="false" ClearSubscopes="false" />
+          </pnp:Security>
+        </pnp:ClientSidePage>
+        <pnp:ClientSidePage PageName="----Title----.aspx" PromoteAsNewsArticle="false" PromoteAsTemplate="false" Overwrite="true" Title="####Title####">
+          <pnp:Sections>
+            <pnp:Section Order="1" Type="OneColumn">
+              <pnp:Controls>
+                <pnp:CanvasControl WebPartType="Text" ControlId="1d9dcf45-dddf-4d9f-9cbe-33ee958625c9" Order="1" Column="1">
+                  <pnp:CanvasControlProperties>
+                    <pnp:CanvasControlProperty Key="Text" Value="####Content####" />
+                  </pnp:CanvasControlProperties>
+                </pnp:CanvasControl>
+                <pnp:CanvasControl WebPartType="Image" JsonControlData="{&quot;id&quot;: &quot;d1d91016-032f-456d-98a4-721247c305e8&quot;, &quot;instanceId&quot;: &quot;7f7ba91e-5082-4091-989e-1875f932d497&quot;, &quot;title&quot;: &quot;Image&quot;, &quot;description&quot;: &quot;Show an image on your page&quot;, &quot;dataVersion&quot;: &quot;1.8&quot;, &quot;properties&quot;: {&quot;imageSourceType&quot;:2,&quot;altText&quot;:&quot;a view of a city&quot;,&quot;overlayText&quot;:&quot;&quot;,&quot;fileName&quot;:&quot;&quot;,&quot;siteId&quot;:&quot;{sitecollectionid}&quot;,&quot;webId&quot;:&quot;{siteid}&quot;,&quot;listId&quot;:&quot;{listid:Site Assets}&quot;,&quot;uniqueId&quot;:&quot;{2EED5BD7-F07C-404A-8BF3-454535F48DBB}&quot;,&quot;imgWidth&quot;:4608,&quot;imgHeight&quot;:2592,&quot;resizeCoefficient&quot;:1,&quot;alignment&quot;:&quot;Center&quot;,&quot;fixAspectRatio&quot;:false}, &quot;serverProcessedContent&quot;: {&quot;htmlStrings&quot;:{},&quot;searchablePlainTexts&quot;:{&quot;captionText&quot;:&quot;&quot;},&quot;imageSources&quot;:{&quot;imageSource&quot;:&quot;{site}/SiteAssets/SitePages/Lorem-Ipsim-3-14102019/5755-20190824_175803.jpg&quot;},&quot;links&quot;:{&quot;linkUrl&quot;:&quot;&quot;},&quot;customMetadata&quot;:{&quot;imageSource&quot;:{&quot;siteId&quot;:&quot;{sitecollectionid}&quot;,&quot;webId&quot;:&quot;{siteid}&quot;,&quot;listId&quot;:&quot;{listid:Site Assets}&quot;,&quot;uniqueId&quot;:&quot;{2EED5BD7-F07C-404A-8BF3-454535F48DBB}&quot;,&quot;width&quot;:4608,&quot;height&quot;:2592}}}, &quot;dynamicDataPaths&quot;: {}, &quot;dynamicDataValues&quot;: {}}" ControlId="d1d91016-032f-456d-98a4-721247c305e8" Order="2" Column="1" />
+              </pnp:Controls>
+            </pnp:Section>
+          </pnp:Sections>
+          <pnp:Header Type="Default" LayoutType="FullWidthImage" TextAlignment="Center" ShowTopicHeader="false" ShowPublishDate="false" TopicHeader="" AlternativeText="" Authors="[&#xD;&#xA;  {&#xD;&#xA;    &quot;id&quot;: &quot;i:0#.f|membership|admin@m365x337444.onmicrosoft.com&quot;,&#xD;&#xA;    &quot;upn&quot;: &quot;admin@M365x337444.onmicrosoft.com&quot;,&#xD;&#xA;    &quot;name&quot;: &quot;MOD Administrator&quot;,&#xD;&#xA;    &quot;role&quot;: &quot;&quot;&#xD;&#xA;  }&#xD;&#xA;]" AuthorByLine="[&#xD;&#xA;  &quot;i:0#.f|membership|admin@m365x337444.onmicrosoft.com&quot;&#xD;&#xA;]" AuthorByLineId="-1" />
+          <pnp:Security>
+            <pnp:BreakRoleInheritance CopyRoleAssignments="false" ClearSubscopes="false" />
+          </pnp:Security>
+        </pnp:ClientSidePage>
+        <pnp:ClientSidePage PageName="N0001.aspx" PromoteAsNewsArticle="false" PromoteAsTemplate="false" Overwrite="true" Title="Title 1">
+          <pnp:Sections>
+            <pnp:Section Order="1" Type="OneColumn">
+              <pnp:Controls>
+                <pnp:CanvasControl WebPartType="Text" ControlId="0c4c8e00-c7d6-46b7-8a64-4e311bca43a4" Order="1" Column="1">
+                  <pnp:CanvasControlProperties>
+                    <pnp:CanvasControlProperty Key="Text" Value="Hier des gesampte Inhalt von News 1" />
+                  </pnp:CanvasControlProperties>
+                </pnp:CanvasControl>
+                <pnp:CanvasControl WebPartType="Image" JsonControlData="{&quot;id&quot;: &quot;d1d91016-032f-456d-98a4-721247c305e8&quot;, &quot;instanceId&quot;: &quot;7f7ba91e-5082-4091-989e-1875f932d497&quot;, &quot;title&quot;: &quot;Image&quot;, &quot;description&quot;: &quot;Image&quot;, &quot;dataVersion&quot;: &quot;1.8&quot;, &quot;properties&quot;: {&quot;imageSourceType&quot;:2,&quot;altText&quot;:&quot;a view of a city&quot;,&quot;overlayText&quot;:&quot;&quot;,&quot;fileName&quot;:&quot;&quot;,&quot;siteId&quot;:&quot;{sitecollectionid}&quot;,&quot;webId&quot;:&quot;{siteid}&quot;,&quot;listId&quot;:&quot;{listid:Site Assets}&quot;,&quot;uniqueId&quot;:&quot;{2EED5BD7-F07C-404A-8BF3-454535F48DBB}&quot;,&quot;imgWidth&quot;:4608,&quot;imgHeight&quot;:2592,&quot;resizeCoefficient&quot;:1,&quot;alignment&quot;:&quot;Center&quot;,&quot;fixAspectRatio&quot;:false}, &quot;serverProcessedContent&quot;: {&quot;htmlStrings&quot;:{},&quot;searchablePlainTexts&quot;:{&quot;captionText&quot;:&quot;&quot;},&quot;imageSources&quot;:{&quot;imageSource&quot;:&quot;{site}/SiteAssets/SitePages/Lorem-Ipsim-3-14102019/5755-20190824_175803.jpg&quot;},&quot;links&quot;:{&quot;linkUrl&quot;:&quot;&quot;},&quot;customMetadata&quot;:{&quot;imageSource&quot;:{&quot;siteId&quot;:&quot;{sitecollectionid}&quot;,&quot;webId&quot;:&quot;{siteid}&quot;,&quot;listId&quot;:&quot;{listid:Site Assets}&quot;,&quot;uniqueId&quot;:&quot;{2EED5BD7-F07C-404A-8BF3-454535F48DBB}&quot;,&quot;width&quot;:4608,&quot;height&quot;:2592}}}, &quot;dynamicDataPaths&quot;: {}, &quot;dynamicDataValues&quot;: {}}" ControlId="d1d91016-032f-456d-98a4-721247c305e8" Order="2" Column="1" />
+              </pnp:Controls>
+            </pnp:Section>
+          </pnp:Sections>
+          <pnp:Header Type="Default" LayoutType="FullWidthImage" TextAlignment="Center" ShowTopicHeader="false" ShowPublishDate="false" TopicHeader="" AlternativeText="" Authors="[]" AuthorByLine="[]" AuthorByLineId="-1" />
+          <pnp:Security>
+            <pnp:BreakRoleInheritance CopyRoleAssignments="false" ClearSubscopes="false" />
+          </pnp:Security>
+        </pnp:ClientSidePage>
+        <pnp:ClientSidePage PageName="N0002.aspx" PromoteAsNewsArticle="false" PromoteAsTemplate="false" Overwrite="true" Title="Title 2">
+          <pnp:Sections>
+            <pnp:Section Order="1" Type="OneColumn">
+              <pnp:Controls>
+                <pnp:CanvasControl WebPartType="Text" ControlId="fe5c3a77-f2d9-479f-a49a-a333cd477ba2" Order="1" Column="1">
+                  <pnp:CanvasControlProperties>
+                    <pnp:CanvasControlProperty Key="Text" Value="Hier des gesampte Inhalt von News 3" />
+                  </pnp:CanvasControlProperties>
+                </pnp:CanvasControl>
+                <pnp:CanvasControl WebPartType="Image" JsonControlData="{&quot;id&quot;: &quot;d1d91016-032f-456d-98a4-721247c305e8&quot;, &quot;instanceId&quot;: &quot;7f7ba91e-5082-4091-989e-1875f932d497&quot;, &quot;title&quot;: &quot;Image&quot;, &quot;description&quot;: &quot;Image&quot;, &quot;dataVersion&quot;: &quot;1.8&quot;, &quot;properties&quot;: {&quot;imageSourceType&quot;:2,&quot;altText&quot;:&quot;a view of a city&quot;,&quot;overlayText&quot;:&quot;&quot;,&quot;fileName&quot;:&quot;&quot;,&quot;siteId&quot;:&quot;{sitecollectionid}&quot;,&quot;webId&quot;:&quot;{siteid}&quot;,&quot;listId&quot;:&quot;{listid:Site Assets}&quot;,&quot;uniqueId&quot;:&quot;{2EED5BD7-F07C-404A-8BF3-454535F48DBB}&quot;,&quot;imgWidth&quot;:4608,&quot;imgHeight&quot;:2592,&quot;resizeCoefficient&quot;:1,&quot;alignment&quot;:&quot;Center&quot;,&quot;fixAspectRatio&quot;:false}, &quot;serverProcessedContent&quot;: {&quot;htmlStrings&quot;:{},&quot;searchablePlainTexts&quot;:{&quot;captionText&quot;:&quot;&quot;},&quot;imageSources&quot;:{&quot;imageSource&quot;:&quot;{site}/SiteAssets/SitePages/Lorem-Ipsim-3-14102019/5755-20190824_175803.jpg&quot;},&quot;links&quot;:{&quot;linkUrl&quot;:&quot;&quot;},&quot;customMetadata&quot;:{&quot;imageSource&quot;:{&quot;siteId&quot;:&quot;{sitecollectionid}&quot;,&quot;webId&quot;:&quot;{siteid}&quot;,&quot;listId&quot;:&quot;{listid:Site Assets}&quot;,&quot;uniqueId&quot;:&quot;{2EED5BD7-F07C-404A-8BF3-454535F48DBB}&quot;,&quot;width&quot;:4608,&quot;height&quot;:2592}}}, &quot;dynamicDataPaths&quot;: {}, &quot;dynamicDataValues&quot;: {}}" ControlId="d1d91016-032f-456d-98a4-721247c305e8" Order="2" Column="1" />
+              </pnp:Controls>
+            </pnp:Section>
+          </pnp:Sections>
+          <pnp:Header Type="Default" LayoutType="FullWidthImage" TextAlignment="Center" ShowTopicHeader="false" ShowPublishDate="false" TopicHeader="" AlternativeText="" Authors="[]" AuthorByLine="[]" AuthorByLineId="-1" />
+          <pnp:Security>
+            <pnp:BreakRoleInheritance CopyRoleAssignments="false" ClearSubscopes="false" />
+          </pnp:Security>
+        </pnp:ClientSidePage>
+        <pnp:ClientSidePage PageName="----Title----(1).aspx" PromoteAsNewsArticle="false" PromoteAsTemplate="false" Overwrite="true" Title="####Title####">
+          <pnp:Sections>
+            <pnp:Section Order="1" Type="OneColumn">
+              <pnp:Controls>
+                <pnp:CanvasControl WebPartType="Text" ControlId="1d9dcf45-dddf-4d9f-9cbe-33ee958625c9" Order="1" Column="1">
+                  <pnp:CanvasControlProperties>
+                    <pnp:CanvasControlProperty Key="Text" Value="####Content####" />
+                  </pnp:CanvasControlProperties>
+                </pnp:CanvasControl>
+                <pnp:CanvasControl WebPartType="Image" JsonControlData="{&quot;id&quot;: &quot;d1d91016-032f-456d-98a4-721247c305e8&quot;, &quot;instanceId&quot;: &quot;7f7ba91e-5082-4091-989e-1875f932d497&quot;, &quot;title&quot;: &quot;Image&quot;, &quot;description&quot;: &quot;Show an image on your page&quot;, &quot;dataVersion&quot;: &quot;1.8&quot;, &quot;properties&quot;: {&quot;imageSourceType&quot;:2,&quot;altText&quot;:&quot;&quot;,&quot;overlayText&quot;:&quot;&quot;,&quot;fileName&quot;:&quot;&quot;,&quot;siteId&quot;:&quot;{sitecollectionid}&quot;,&quot;webId&quot;:&quot;{siteid}&quot;,&quot;listId&quot;:&quot;{listid:Site Assets}&quot;,&quot;uniqueId&quot;:&quot;{4C0D2571-2BC3-4427-90BC-E9BC0678E6CE}&quot;,&quot;imgWidth&quot;:1280,&quot;imgHeight&quot;:720,&quot;resizeCoefficient&quot;:1,&quot;alignment&quot;:&quot;Center&quot;,&quot;fixAspectRatio&quot;:false}, &quot;serverProcessedContent&quot;: {&quot;htmlStrings&quot;:{},&quot;searchablePlainTexts&quot;:{&quot;captionText&quot;:&quot;&quot;},&quot;imageSources&quot;:{&quot;imageSource&quot;:&quot;{site}/SiteAssets/SitePages/Event/30338-VideoCapture_20190825-175135.jpg&quot;},&quot;links&quot;:{&quot;linkUrl&quot;:&quot;&quot;},&quot;customMetadata&quot;:{&quot;imageSource&quot;:{&quot;siteId&quot;:&quot;{sitecollectionid}&quot;,&quot;webId&quot;:&quot;{siteid}&quot;,&quot;listId&quot;:&quot;{listid:Site Assets}&quot;,&quot;uniqueId&quot;:&quot;{4C0D2571-2BC3-4427-90BC-E9BC0678E6CE}&quot;,&quot;width&quot;:1280,&quot;height&quot;:720}}}, &quot;dynamicDataPaths&quot;: {}, &quot;dynamicDataValues&quot;: {}}" ControlId="d1d91016-032f-456d-98a4-721247c305e8" Order="2" Column="1" />
+              </pnp:Controls>
+            </pnp:Section>
+          </pnp:Sections>
+          <pnp:Header Type="Default" LayoutType="FullWidthImage" TextAlignment="Center" ShowTopicHeader="false" ShowPublishDate="false" TopicHeader="" AlternativeText="" Authors="[&#xD;&#xA;  {&#xD;&#xA;    &quot;id&quot;: &quot;i:0#.f|membership|admin@m365x337444.onmicrosoft.com&quot;,&#xD;&#xA;    &quot;upn&quot;: &quot;admin@M365x337444.onmicrosoft.com&quot;,&#xD;&#xA;    &quot;name&quot;: &quot;MOD Administrator&quot;,&#xD;&#xA;    &quot;role&quot;: &quot;&quot;&#xD;&#xA;  }&#xD;&#xA;]" AuthorByLine="[&#xD;&#xA;  &quot;i:0#.f|membership|admin@m365x337444.onmicrosoft.com&quot;&#xD;&#xA;]" AuthorByLineId="-1" />
+          <pnp:Security>
+            <pnp:BreakRoleInheritance CopyRoleAssignments="false" ClearSubscopes="false" />
+          </pnp:Security>
+        </pnp:ClientSidePage>
+      </pnp:ClientSidePages>
+    </pnp:ProvisioningTemplate>
+  </pnp:Templates>
+</pnp:Provisioning>
